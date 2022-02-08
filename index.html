@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" 
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="logo"><img src="logo.png" alt="Spotify"><span>Spotify</span></li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container-fluid">
+       
+        <div class="row" style="height: 76vh;">
+            <div class="col-9" style="height: 120%; overflow-y: scroll;">
+
+                <div class="row" style="height: 220px; color: aliceblue; background-color: black; margin: 1%;">
+                    <h5 style="margin-top:15px;">Recently Played</h5>
+                    <div class="col-6" style="height: 35%; width: 48%; border: 2px solid blue; margin-left: 1%;">
+
+                    </div>
+                    <div class="col-6" style="height: 35%; width: 48%; border: 2px solid blue; margin-left: 1%;">
+
+                    </div>
+                    <div class="col-6" style="height: 35%; width: 48%; border: 2px solid blue; margin-left: 1%;">
+
+                    </div>
+                    <div class="col-6" style="height: 35%; width: 48%; border: 2px solid blue; margin-left: 1%;">
+
+                    </div>
+
+                </div>
+
+
+                <div class="row" style="height: 220px; color: aliceblue; background-color: black; margin: 1%; padding: 5px;">
+                    <h5 style="margin-top:15px;">Latest Release</h5>
+                    <div class="col-4" style="height: 68%; width: 31%; border: 2px solid blue; margin: 1%;">
+                        
+                    </div>
+                    <div class="col-4" style="height: 68%; width: 31%; border: 2px solid blue; margin: 1%;">
+                        
+                    </div>
+                    <div class="col-4" style="height: 68%; width: 31%; border: 2px solid blue; margin: 1%;">
+                        
+                    </div>
+                </div>
+                
+
+                <div class="row" style="height: 200px; color: aliceblue; background-color: black; margin: 1%;">
+                    <h5 style="margin-top:15px;">Latest Release</h5>
+                    <div class="col-6" style="height: 68%; width: 15%; border: 2px solid blue; margin: 0.75%; border-radius: 90%;">
+
+                    </div>
+                    <div class="col-6" style="height: 68%; width: 15%; border: 2px solid blue; margin: 0.75%; border-radius: 90%">
+
+                    </div>
+                    <div class="col-6" style="height: 68%; width: 15%; border: 2px solid blue; margin: 0.75%; border-radius: 90%">
+
+                    </div>
+                    <div class="col-6" style="height: 68%; width: 15%; border: 2px solid blue; margin: 0.75%; border-radius: 90%">
+
+                    </div>
+                    
+                    <div class="col-6" style="height: 68%; width: 15%; border: 2px solid blue; margin: 0.75%; border-radius: 90%">
+
+                    </div>
+                    <div class="col-6" style="height: 68%; width: 15%; border: 2px solid blue; margin: 0.75%; border-radius: 90%">
+
+                    </div>
+                </div>
+
+                <div class="row" style="height: 150px; color: aliceblue; background-color: black; margin: 1%;">
+                    <h5 style="margin-top:15px;">Mood</h5>
+                    <div class="col-6" style="height: 90%; width: 31%; border: 2px solid blue; margin: 1%;">
+
+                    </div>
+                    
+                    <div class="col-6" style="height: 90%; width: 31%; border: 2px solid blue; margin: 1%;">
+
+                    </div>
+                    <div class="col-6" style="height: 90%; width: 31%; border: 2px solid blue; margin: 1%;">
+
+                    </div>
+                </div>
+
+                
+                <div class="row" style="height: 100px;">
+                    <div class="col" style="height: 100%;"></div>
+                </div>
+
+            </div>
+            <div class="col-3" style="height: 100%; overflow-y: scroll; overflow-x: hidden;">
+                <nav><span class="playlist"> Playlist</span></nav>
+                    <ul class="ul">
+                        <li><div class="songItem">
+                            <img  alt="1">
+                            <span class="songName"></span>
+                            <span class="songlistplay"><span class="timestamp">  <i id="1" class="ch far fa-play-circle"></i></span></span>
+                        </div></li>
+                        <li><div class="songItem">
+                            <img  alt="1">
+                            <span class="songName"></span>
+                            <span class="songlistplay"><span class="timestamp">  <i id="2" class="ch far fa-play-circle"></i></span></span>
+                        </div></li>
+                        <li><div class="songItem">
+                            <img  alt="1">
+                            <span class="songName"></span>
+                            <span class="songlistplay"><span class="timestamp">  <i id="3" class="ch far fa-play-circle"></i></span></span>
+                        </div></li>
+                        <li><div class="songItem">
+                            <img  alt="1">
+                            <span class="songName"></span>
+                            <span class="songlistplay"><span class="timestamp">  <i id="1" class="ch far fa-play-circle"></i></span></span>
+                        </div></li>
+                        <li><div class="songItem">
+                            <img  alt="1">
+                            <span class="songName"></span>
+                            <span class="songlistplay"><span class="timestamp">  <i id="2" class="ch far fa-play-circle"></i></span></span>
+                        </div></li>
+                        <li><div class="songItem">
+                            <img  alt="1">
+                            <span class="songName"></span>
+                            <span class="songlistplay"><span class="timestamp">  <i id="3" class="ch far fa-play-circle"></i></span></span>
+                        </div></li>
+    
+                    </ul>
+                
+            </div>
+        </div>
+
+
+       
+     
+
+
+    </div>
+
+
+
+    <div class="bottom">
+        <div id="currentTime">
+
+        </div>
+        <input type="range" name="range" id="myProgressBar" value="0" min="0" max="100">
+        <div class="icons">
+            <i id="previous" class="fas fa-2x fa-backward"></i>
+            <i class="far fa-2x fa-play-circle" id="masterplay"></i>
+            <i id="next" class="fas fa-2x fa-forward"></i>
+        </div>
+
+        <div class="songinfo">
+            <span id="masterSongName">song name</span>
+        </div>
+
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
